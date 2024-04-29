@@ -4,9 +4,10 @@ import readline from 'readline-sync';
     let maior = 0;
     let menor = 0;
 
+    console.log("Digites quatro numeros para análisar quem é o maior e quem é o menor");
     for(let i=0; i<4; i++){
 
-    let entrada: number = Number (readline.question("Digite 4 numeros separados por espaco: "));
+    let entrada: number = Number (readline.question("Digite um numero: "));
     
     numero.push(entrada);
 
