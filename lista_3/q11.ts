@@ -1,34 +1,37 @@
-import readline from "readline-sync";
+import readline from 'readline-sync';
 
-function maior(n1: number, n2: number, n3: number, n4: number ): string {
+    let numero: number [] = [];
+    let maior = 0;
+    let menor = 0;
 
-    let resultado = n1 * 0.30;
+    for(let i=0; i<4; i++){
 
-    if ( n2 > resultado ){
-
-        return `O emprestino de ${n2} não poderá ser realizado`;
-    } else {
-        return `O emprestino de ${n2} poderá ser realizado`;
-    }
-}
-
-let resul1;
-let resul2;
-let numeroTeste = 0;
-for ( let  i = 0; i < 4; i++){
-let numero1: number = Number(readline.question("Digite um numero: "));
-
-
-
-if(numeroTeste < numero1){
-
-    resul1 = numero1;
-    numeroTeste = resul1;
-}else {
-    resul2 = numero1
+    let entrada: number = Number (readline.question("Digite 4 numeros separados por espaco: "));
     
-}
+    numero.push(entrada);
+
+        if (i === 0) {
+        // Se for a primeira iteração, o menor número é inicializado com o primeiro número inserido
+        menor = entrada;
+         } else {
+        // Atualiza o menor número se a entrada atual for menor
+             if (entrada < menor) {
+            menor = entrada;
+            }
+        }
+
+        if (entrada>maior) {
+            maior = entrada;
+        } 
 
 
+    }
 
-console.log(maior(numero1, numero2));
+    
+    
+   
+   
+    console.log("O menor valor é:", menor);
+    console.log("O maior valor é:", maior);
+
+
