@@ -23,8 +23,7 @@ import readline from 'readline-sync';
         if (entrada>maior) {
             maior = entrada;
         } 
-
-
+        
     }
 
     
