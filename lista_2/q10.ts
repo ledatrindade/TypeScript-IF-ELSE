@@ -16,17 +16,15 @@ function calcularDiasVividos(diaNascimento: number, mesNascimento: number, anoNa
     return diasVividosAno + diasVividosMes + diasVividosDia;
 }
 
-function main() {
-    const nome: string = (readline.question("Digite seu nome:"));
-    const diaNascimento: number = Number(readline.question("Digite o dia do seu nascimento:"));
-    const mesNascimento: number = Number(readline.question("Digite o mês do seu nascimento:"));
-    const anoNascimento: number = Number(readline.question("Digite o ano do seu nascimento:"));
+    let nome: string = (readline.question("Digite seu nome:"));
+    let diaNascimento: number = Number(readline.question("Digite o dia do seu nascimento:"));
+    let mesNascimento: number = Number(readline.question("Digite o mês do seu nascimento:"));
+    let anoNascimento: number = Number(readline.question("Digite o ano do seu nascimento:"));
 
-    const diasVividos = calcularDiasVividos(diaNascimento, mesNascimento, anoNascimento);
+    let diasVividos = calcularDiasVividos(diaNascimento, mesNascimento, anoNascimento);
 
     console.log(`${nome}, você já viveu ${diasVividos} dias.`);
-}
 
-main();
 
-//estudar código
+
+
