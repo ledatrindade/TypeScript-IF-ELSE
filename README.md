@@ -1,8 +1,4 @@
-Entendido, aqui está uma versão com palavras diferentes para evitar repetições:
-
----
-
-**Exercícios em TypeScript com uso de if e else**
+# Exercícios em TypeScript com uso de if e else
 
 Este repositório contém uma série de resoluções de exercícios que visaram me fazer compreender conceitos essenciais de programação em TypeScript, enfatizando o uso de estruturas condicionais if e else. Esses exercícios foram elaborados para auxiliar no desenvolvimento de habilidades práticas e na construção de uma compreensão sólida sobre como trabalhar eficazmente com decisões condicionais em TypeScript.
 
