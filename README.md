@@ -13,5 +13,5 @@ Além disso, este repositório utiliza **Node.js** para execução dos scripts e
 
 **Autora:** Lêda Trindade
 
-**Data de Conclusão:** 08/05/2024
+**Data de Conclusão:** 01/05/2024
 
